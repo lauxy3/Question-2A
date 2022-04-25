@@ -12,7 +12,7 @@ namespace producer.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class MessageController : ControllerBase
+    public class TaskController : ControllerBase
     {
 
         [HttpPost]
