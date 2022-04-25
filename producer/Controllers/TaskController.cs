@@ -37,6 +37,7 @@ namespace producer.Controllers
 
                 string message = TaskQueue.Email;
                 var body = Encoding.UTF8.GetBytes(message);
+                
 
 
 
