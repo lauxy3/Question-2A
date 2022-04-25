@@ -16,7 +16,7 @@ namespace producer.Controllers
     {
 
         [HttpPost]
-        public void Post([FromBody] Message greeting)
+        public void Post([FromBody] Tasks TaskQueue)
         {
             var factory = new ConnectionFactory()
             {   //HostName = "localhost" , 
@@ -35,7 +35,7 @@ namespace producer.Controllers
                                      autoDelete: false,
                                      arguments: null);
 
-                string message = greeting.Email;
+                string message = TaskQueue.Email;
                 var body = Encoding.UTF8.GetBytes(message);
 
 

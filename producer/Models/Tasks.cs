@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace producer.Models
 {
-    public class Message
+    public class Tasks
     {
         public string Email { get; set; }
         public string password {get; set; }
