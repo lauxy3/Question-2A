@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace producer.Models
 {
-    public class Tasks
+    public class Task
     {
-        public string Email { get; set; }
+        public string email { get; set; }
         public string password {get; set; }
         public string task {get; set;}
 
